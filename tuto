@@ -2,8 +2,6 @@
 
 SSL / Certificat
 
-Le certificat SSL avait été créé avec un mauvais email → suppression et recréation via la section SSL.
-
 Il ne faut rien activer d’autre, juste générer un nouveau SSL et enregistrer.
 
 Attention : limite de 7 à 10 certificats par semaine.
@@ -41,11 +39,7 @@ Vérification des paramètres de sécurité dans Cloudflare → domaine → séc
 
 Configuration Nginx Proxy Manager
 
-Suppression de l’ancien compte.
-
 Ajout d’un nouvel utilisateur avec mot de passe.
-
-Application du contrôle d’accès via Access List pour protéger dash.beluchon.top.
 
 Docker Compose
 
@@ -64,8 +58,6 @@ Droite = ports internes (ne pas modifier)
 Exemple : 3001 choisi car libre.
 
 Vérifications finales
-
-Sites (stremthru, dash) fonctionnent correctement.
 
 Docker démarre automatiquement au boot.
 
