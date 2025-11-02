@@ -30,3 +30,22 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo systemctl status docker
 vous aurrai une interface faire Q pour en sortir
+
+sudo systemctl start docker
+sudo docker run hello-world
+
+docker --version si ok continuer
+
+docker-compose:
+
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+docker compose version
+
+faire:
+sudo systemctl start docker
+sudo systemctl status docker
+sudo systemctl enable docker
+
+
+
