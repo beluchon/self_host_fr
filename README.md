@@ -8,7 +8,7 @@ Il ne faut rien activer d’autre, juste générer un nouveau SSL et enregistrer
 
 Attention : limite de 7 à 10 certificats par semaine.
 
-Docker
+💎Docker
 
 Commandes utilisées :
 
@@ -17,19 +17,19 @@ sudo docker image prune -a
 sudo docker compose up -d
 
 
-Activation du démarrage automatique :
+🥩Activation du démarrage automatique :
 
 sudo systemctl enable docker
 sudo systemctl is-enabled docker
 
 
-Ajout de l’utilisateur au groupe Docker pour éviter le mot de passe sudo :
+🚗Ajout de l’utilisateur au groupe Docker pour éviter le mot de passe sudo :
 
 sudo usermod -aG docker $USER
 newgrp docker
 
 
-Cloudflare / Sécurité
+🍊Cloudflare / Sécurité
 
 Le SSL est déjà géré par Cloudflare, donc inutile de le forcer côté serveur.
 
