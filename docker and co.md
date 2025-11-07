@@ -39,5 +39,5 @@ sudo curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml 
 sudo docker compose up -d
 
 # If you are using docker-compose V1 or Podman
-# docker-compose up -d
+sudo docker-compose up -d
 ```
