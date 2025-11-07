@@ -93,9 +93,6 @@
 
 💾 **Collez-la dans un bloc note pour l’utiliser plus tard**
 
-<img width="1894" height="896" alt="tet-" src="https://github.com/user-attachments/assets/ae30817b-c717-41c6-9313-abdeebdaba36" />
-
-
 👉 Dans l’interface Cloudflare Tunnel :  
 - **Hostname** : `*`  
 - **Domain** : `beluchon.top`  
@@ -109,6 +106,10 @@
 📡 **Étape 5 : Configurer les DNS dans Cloudflare 📡**
 
 5.1 📥 **Ajouter un enregistrement DNS**  
+
+<img width="1894" height="896" alt="tet-" src="https://github.com/user-attachments/assets/5b25bb12-2fff-4a2d-b5b4-6969440e3a6c" />
+
+
 👉 Allez dans **DNS Records → Add Record**
 
 - **Type** : `CNAME`
