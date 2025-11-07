@@ -1,167 +1,155 @@
-🎉 Tutoriel Complet : Acheter un domaine sur Porkbun et le lier avec Cloudflare Tunnel 🎉
+🎉 **Tutoriel Complet : Acheter un domaine sur Porkbun et le lier avec Cloudflare Tunnel** 🎉  
+*(avec émojis pour plus de lisibilité et de clarté)*
 
-(avec émojis pour plus de lisibilité et de clarté)
+---
 
-📋 Prérequis
+📌 **Prérequis**
 
-✅ Un compte Cloudflare (gratuit)
+✅ Un compte **Cloudflare** (gratuit)  
+✅ Un compte **Porkbun**  
+✅ Un serveur avec **Docker/Dockge** (ex: Ubuntu + Docker)  
+✅ Une application à exposer (ex: **Nginx Proxy Manager**)
 
-✅ Un compte Porkbun
+---
 
-✅ Un serveur avec Docker/Dockge (ex: Ubuntu + Docker)
+🛒 **Étape 1 : Acheter un domaine sur Porkbun 🛒**
 
-✅ Une application à exposer (ex: Nginx Proxy Manager)
+1.1 🌐 **Créer un compte Porkbun**  
+👉 Allez sur : [porkbun.com](https://www.porkbun.com)
 
-🛒 Étape 1 : Acheter un domaine sur Porkbun 🛒
+1.2 🎯 **Rechercher et acheter un domaine**  
+👉 Dans l’interface Porkbun, recherchez votre domaine (ex: `beluchon.top`)  
 
-1.1 🌐 Créer un compte Porkbun
+⚠️ **IMPORTANT** : Désactivez la protection WHOIS gratuite (elle peut interférer avec Cloudflare) 🔒
 
-👉 Allez sur 
-porkbun.com
+---
 
-1.2 🎯 Rechercher et acheter un domaine
+☁️ **Étape 2 : Transférer le domaine vers Cloudflare ☁️**
 
-👉 Dans l’interface Porkbun, recherchez votre domaine (ex: beluchon.top)
+2.1 🌐 **Accéder à Cloudflare**  
+👉 Allez sur : [dash.cloudflare.com](https://dash.cloudflare.com)
 
-⚠️ IMPORTANT : Désactivez la protection WHOIS gratuite (elle peut interférer avec Cloudflare) 🔒
+2.2 🔄 **Ajouter un site**  
+👉 Cliquez sur **“Add a site”**  
+👉 Entrez votre domaine (ex: `beluchon.top`)  
+👉 Sélectionnez **Plan Free → Continue**
 
-☁️ Étape 2 : Transférer le domaine vers Cloudflare ☁️
+2.3 📊 **Vérification des enregistrements DNS**  
+👉 Cloudflare scanne vos DNS existants  
+👉 Supprimez les enregistrements existants → **“Continue to activation”** et allez en bas
 
-2.1 🌐 Accéder à Cloudflare
+2.4 🔄 **Cloudflare Nameservers**  
+👉 Cloudflare vous donne 2 nameservers à utiliser :  
+`yyyy.ns.cloudflare.com`  
+`TTTT.ns.cloudflare.com`  
 
-👉 Allez sur 
-dash.cloudflare.com
+📌 **Notez-les précieusement 📌**
 
+---
 
-2.2 🔄 Ajouter un site
+⚙️ **Étape 3 : Configurer les nameservers sur Porkbun ⚙️**
 
-👉 Cliquez sur “Add a site”
+3.1 🧭 **Dans l’interface Porkbun**  
+👉 Allez dans **Domain Management**  
+👉 Cliquez sur votre domaine (`beluchon.top`)  
+👉 Cherchez **“Nameservers”**
 
-👉 Entrez votre domaine (ex: beluchon.top)
+3.2 🧩 **Supprimer les anciens nameservers**  
+👉 Supprimez les anciens enregistrements  
+👉 Ajoutez les 2 nameservers de Cloudflare :  
+`yyyy.ns.cloudflare.com`  
+`TTTT.ns.cloudflare.com`  
+👉 Cliquez sur **“Submit”**
 
-👉 Sélectionnez Plan Free → Continue
+3.3 🔄 **Retour sur Cloudflare**  
+👉 Cliquez sur **“Continue”**
 
-2.3 📊 Vérification des enregistrements DNS
+⏳ **Attendez quelques minutes…**
 
-👉 Cloudflare scanne vos DNS existants
+✅ **Une fois activé →**
 
-👉 Supprimez les enregistrements existants → “Continue to activation” et aller en bas
+---
 
-2.4 🔄cloudflare nameservers
+🚇 **Étape 4 : Configuration Cloudflare Tunnel 🚇**
 
-👉 Cloudflare vous donne 2 nameservers à utiliser :
-
-yyyy.ns.cloudflare.com
-
-TTTT.ns.cloudflare.com
-
-📌 Notez-les précieusement 📌
-
-⚙️ Étape 3 : Configurer les nameservers sur Porkbun ⚙️
-
-3.1 🧭 Dans l’interface Porkbun
-
-👉 Allez dans Domain Management
-
-👉 Cliquez sur votre domaine (beluchon.top)
-
-👉 Cherchez “Nameservers”
-
-3.2 🧩 Supprimer les anciens nameservers
-
-👉 Supprimez les anciens enregistrements
-
-👉 Ajoutez les 2 nameservers de Cloudflare :
-
-yyyy.ns.cloudflare.com
-
-TTTT.ns.cloudflare.com
-
-👉 Cliquez sur “Submit”
-
-3.3 🔄 Retour sur Cloudflare
-
-👉 Cliquez sur “Continue”
-
-⏳ Attendez quelques minutes…
-
-✅ Une fois activé →
-
-🚇 Étape 4 : Configuration Cloudflare Tunnel 🚇
-
-4.1 🛡️ Accéder à Cloudflare Zero Trust
-
-👉 Allez sur : 
-https://one.dash.cloudflare.com
-
+4.1 🛡️ **Accéder à Cloudflare Zero Trust**  
+👉 Allez sur : [https://one.dash.cloudflare.com](https://one.dash.cloudflare.com)  
 👉 Connectez-vous avec votre compte Cloudflare 🎯
 
-4.2 🛠️ Créer un tunnel
+4.2 🛠️ **Créer un tunnel**  
+👉 Dans le menu de gauche : **Networks > Tunnels**  
+👉 Cliquez sur **“Create a tunnel”**
 
-👉 Dans le menu de gauche : Networks > Tunnels
+👉 Nommez votre tunnel (ex: `mon-tunnel`) 📝
 
-👉 Cliquez sur “Create a tunnel”
+4.3 🧩 **Copier la commande**  
+👉 Copiez la commande générée (attention : ne gardez que la partie après `eyj`)  
 
-👉 Nommez votre tunnel (ex: mon-tunnel) 📝
+💾 **Collez-la dans un bloc note pour l’utiliser plus tard**
 
-4.3 🧩 Copier la commande
+👉 Dans l’interface Cloudflare Tunnel :  
+- **Hostname** : `*`  
+- **Domain** : `beluchon.top`  
+- **Path** : (laissez vide)  
+- **Type** : `HTTP`  
+- **URL** : `http://nginx-proxy-manager:80`  
+👉 Cliquez sur **“Save”**
 
-👉 Copiez la commande générée (attention : ne gardez que la partie après eyj)
+---
 
-💾 Collez-la dans un bloc note pour l’utiliser plus tard
+📡 **Étape 5 : Configurer les DNS dans Cloudflare 📡**
 
-👉 Dans l’interface Cloudflare Tunnel :
+5.1 📥 **Ajouter un enregistrement DNS**  
+👉 Allez dans **DNS Records → Add Record**
 
-Hostname : *
-Domain : beluchon.top
-Path : (laissez vide)
-Type : HTTP
-URL : http://nginx-proxy-manager:80
-👉 Cliquez sur “Save”
-📡 Étape 5 : Configurer les DNS dans Cloudflare 📡
+- **Name** : `*`  
+- **Target** : Copiez votre ID tunnel + `.cfargotunnel.com`  
+  Ex: `e9c999bb-f3de-3294-881a-5444907c0972.cfargotunnel.com`  
+- Cliquez sur **“Save”**
 
-5.1 📥 Ajouter un enregistrement DNS
+⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj`
 
-👉 Allez dans DNS Records → Add Record
+---
 
-Name : *
-Target : copiez votre ID tunnel + .cfargotunnel.com
-Ex: e9c999bb-f3de-3294-881a-5444907c0972.cfargotunnel.com
+6.1 🌐 **Accéder à Nginx Proxy Manager**
 
-👉 Cliquez sur “Save”
-avant de lancer la stack dans TUNNEL_TOKEN= copier la clé qui commencent par eyj
+👉 Ouvrez : `http://VOTRE-IP-SERVEUR:81`
 
-6.1 🌐 Accéder à Nginx Proxy Manager
+🔒 **Identifiants par défaut** :  
+- Email : `admin@example.com`  
+- Password : `changepassword`
 
-👉 Ouvrez : http://VOTRE-IP-SERVEUR:81
+6.2 🏗️ **Créer un Proxy Host**
 
-🔒 Identifiants par défaut :
+👉 Dans Nginx Proxy Manager :
 
-Email : admin@example.com
-Password : changeme
-6.2 🏗️ Créer un Proxy Host
+- **Hosts → Proxy Hosts → Add Proxy Host**
 
-👉 Dans NPM :
+🔍 **Configuration Details** :
 
-Hosts → Proxy Hosts → Add Proxy Host
+- **Domain Names** : `mediafusion.beluchon.top`  
+- **Scheme** : `http`  
+- **Forward Hostname/IP** : `mediafusion` (ou nom du conteneur)  
+- **Forward Port** : `80` (port du conteneur)  
+- **Activer** :  
+  ✅ Cache assets  
+  ✅ Block common exploits  
+  ✅ Websockets support  
 
-🔍 Configuration Details :
+👉 Cliquez sur **“Save”**
 
-Domain Names : mediafusion.beluchon.top
-Scheme : http
-Forward Hostname/IP : mediafusion (ou nom du conteneur)
-Forward Port : 80 (port du conteneur)
-Activer :
-✅ Cache assets
-✅ Block common exploits
-✅ Websockets support
-👉 Cliquez sur “Save”
+---
 
+✨ **Bon courage, et bonheur dans vos projets !** ✨  
+🚀 **Votre serveur est en ligne, votre domaine est connecté, et votre application est accessible !**
 
+📝 **Tout est rédigé avec émojis pour une lecture fluide et amusante 📚✨**
 
+---
 
-✨ Bon courage, et bonheur dans vos projets ! ✨
+✅ **Fin du tutoriel !**  
+✅ Vous êtes prêt à déployer votre projet sur le web avec sécurité, performance et simplicité ! 🚀🌐
 
-🚀 Votre serveur est en ligne, votre domaine est connecté, et votre application est accessible !
+---
 
-📝 Tout est rédigé avec émojis pour une lecture fluide et amusante 📚✨
+💡 *Astuce : Si vous avez des problèmes, vérifiez les logs de Docker, les enregistrements DNS, et la connexion au tunnel Cloudflare.*
