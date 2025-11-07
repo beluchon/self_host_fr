@@ -83,6 +83,9 @@
 👉 Dans le menu de gauche : **Networks > Tunnels**  
 👉 Cliquez sur **“Create a tunnel”**
 
+<img width="1860" height="793" alt="2025-11-07 23_32_56-Greenshot" src="https://github.com/user-attachments/assets/eda11bba-d45f-49c2-a072-ab52bca978b9" />
+
+
 👉 Nommez votre tunnel (ex: `mon-tunnel`) 📝
 
 4.3 🧩 **Copier la commande**  
