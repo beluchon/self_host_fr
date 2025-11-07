@@ -105,9 +105,13 @@
   Ex: `e9c999bb-f3de-3294-881a-5444907c0972.cfargotunnel.com`  
 - Cliquez sur **“Save”**
 
-⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj`
+⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj` a coter de tunnel_token
 
 ---
+aller sur dockge ou avec l'invite de commande et coller https://github.com/beluchon/test/blob/main/docker%20compose.yml
+
+⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj` a coter de tunnel_token
+
 
 6.1 🌐 **Accéder à Nginx Proxy Manager**
 
