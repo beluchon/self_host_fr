@@ -39,6 +39,10 @@
 `yyyy.ns.cloudflare.com`  
 `TTTT.ns.cloudflare.com`  
 
+
+<img width="1894" height="896" alt="tet-" src="https://github.com/user-attachments/assets/889814f6-28e6-40a9-b1c6-47931f6686c1" />
+
+
 📌 **Notez-les précieusement 📌**
 
 ---
