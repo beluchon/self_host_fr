@@ -144,7 +144,7 @@ aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier
 
 - **Domain Names** : `mediafusion.beluchon.top`  
 - **Scheme** : `http` des fois le http ne marchera pas et faudra mettre mttps
-- **Forward Hostname/IP** : `mediafusion` (ou nom du conteneur) et si ne marche pas vous pouvez mettre votre ip
+- **Forward Hostname/IP** : `mediafusion` (ou nom du conteneur) et si ne marche pas vous pouvez mettre votre ip de la machine
 - **Forward Port** : `80` (port du conteneur)  
 
 👉 Cliquez sur **“Save”**
