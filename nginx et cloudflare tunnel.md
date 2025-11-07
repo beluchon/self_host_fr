@@ -132,9 +132,5 @@ aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier
 - **Scheme** : `http`  
 - **Forward Hostname/IP** : `mediafusion` (ou nom du conteneur)  
 - **Forward Port** : `80` (port du conteneur)  
-- **Activer** :  
-  ✅ Cache assets  
-  ✅ Block common exploits  
-  ✅ Websockets support  
 
 👉 Cliquez sur **“Save”**
