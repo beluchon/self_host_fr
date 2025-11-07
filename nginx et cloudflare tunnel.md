@@ -108,7 +108,7 @@
 ⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj` a coter de tunnel_token
 
 ---
-aller sur dockge ou avec l'invite de commande et coller https://github.com/beluchon/test/blob/main/docker%20compose.yml
+aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier https://github.com/beluchon/test/blob/main/docker%20compose.yml
 
 ⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj` a coter de tunnel_token
 
