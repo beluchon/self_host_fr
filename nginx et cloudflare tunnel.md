@@ -1,5 +1,3 @@
-🎉 **Tutoriel Complet : Acheter un domaine sur Porkbun et le lier avec Cloudflare Tunnel** 🎉  
-*(avec émojis pour plus de lisibilité et de clarté)*
 
 ---
 
@@ -137,19 +135,3 @@
   ✅ Websockets support  
 
 👉 Cliquez sur **“Save”**
-
----
-
-✨ **Bon courage, et bonheur dans vos projets !** ✨  
-🚀 **Votre serveur est en ligne, votre domaine est connecté, et votre application est accessible !**
-
-📝 **Tout est rédigé avec émojis pour une lecture fluide et amusante 📚✨**
-
----
-
-✅ **Fin du tutoriel !**  
-✅ Vous êtes prêt à déployer votre projet sur le web avec sécurité, performance et simplicité ! 🚀🌐
-
----
-
-💡 *Astuce : Si vous avez des problèmes, vérifiez les logs de Docker, les enregistrements DNS, et la connexion au tunnel Cloudflare.*
