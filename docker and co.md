@@ -19,6 +19,7 @@ docker compose
 ```# Add Docker's official GPG key:
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+lancer aux démarrage docker
 
 ```# Add Docker's official GPG key:
 sudo systemctl status docker
