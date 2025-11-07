@@ -19,6 +19,6 @@ services:
     restart: unless-stopped
     command: tunnel run
     environment:
-      - TUNNEL_TOKEN=eyJhIjoiYTI5ZDA4OTA5MDdhMWI1ZDZiYmRlNTExMzFlY2M5N2QiLCJ0IjoiZDEzMzAwODItMGM3Ny00ZjM4LTlkMzktOGI0OGI4NDczZDhiIiwicyI6Ik9UVTNZV1UyT0RZdE9EbGhaaTAwTVRnNUxUZ3lNVFF0WVRnM1lUVmlaVGd3T1RaaSJ9
+      - TUNNEL_TOKEN=
     volumes:
       - ./data/cloudflared:/etc/cloudflared
