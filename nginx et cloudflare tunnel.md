@@ -93,6 +93,9 @@
 
 💾 **Collez-la dans un bloc note pour l’utiliser plus tard**
 
+<img width="1894" height="896" alt="tet-" src="https://github.com/user-attachments/assets/ae30817b-c717-41c6-9313-abdeebdaba36" />
+
+
 👉 Dans l’interface Cloudflare Tunnel :  
 - **Hostname** : `*`  
 - **Domain** : `beluchon.top`  
