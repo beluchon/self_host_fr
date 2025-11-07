@@ -49,6 +49,9 @@
 
 ⚙️ **Étape 3 : Configurer les nameservers sur Porkbun ⚙️**
 
+<img width="1630" height="493" alt="2025-11-07 23_31_29-Greenshot" src="https://github.com/user-attachments/assets/e24cd2d5-4539-43e8-a12c-a0b3bf1e8ac2" />
+
+
 3.1 🧭 **Dans l’interface Porkbun**  
 👉 Allez dans **Domain Management**  
 👉 Cliquez sur votre domaine (`beluchon.top`)  
