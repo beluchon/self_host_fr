@@ -119,7 +119,7 @@ aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier
 
 🔒 **Identifiants par défaut** :  
 - Email : `admin@example.com`  
-- Password : `changepassword`
+- Password : `changeme
 
 6.2 🏗️ **Créer un Proxy Host**
 
