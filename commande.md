@@ -1,5 +1,7 @@
 **Arrêter tous les services (garde images et volumes)**
-```sudo docker compose down```
+```
+sudo docker compose down
+```
 
 **Arrêter un service spécifique**
 ```
@@ -7,7 +9,9 @@ sudo docker compose stop nom_service
 ```
 
 **Démarrer tous les services**
+```
 sudo docker compose up -d
+```
 
 **Démarrer un service spécifique**
 sudo docker compose start nom_service
