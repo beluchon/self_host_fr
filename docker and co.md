@@ -22,10 +22,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 lancer aux démarrage docker
 
 ```# Add Docker's official GPG key:
-sudo systemctl status docker
-```
-
-```# Add Docker's official GPG key:
 sudo systemctl start docker
 ```
 
