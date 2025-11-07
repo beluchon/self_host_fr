@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  nginx-proxy-manager:
+    image: docker.io/jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy-manager
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 81:81
+      - 443:443
+    volumes:
+      - ./data/nginx:/data
+      - ./data/letsencrypt:/etc/letsencrypt
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=eyJhIjoiYTI5ZDA4OTA5MDdhMWI1ZDZiYmRlNTExMzFlY2M5N2QiLCJ0IjoiZDEzMzAwODItMGM3Ny00ZjM4LTlkMzktOGI0OGI4NDczZDhiIiwicyI6Ik9UVTNZV1UyT0RZdE9EbGhaaTAwTVRnNUxUZ3lNVFF0WVRnM1lUVmlaVGd3T1RaaSJ9
+    volumes:
+      - ./data/cloudflared:/etc/cloudflared
