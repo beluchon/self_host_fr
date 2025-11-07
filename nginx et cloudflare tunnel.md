@@ -123,7 +123,7 @@
 ---
 aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier https://github.com/beluchon/test/blob/main/docker%20compose.yml
 
-⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj` a coter de tunnel_token
+⚠️ **Important** : Avant de lancer la stack, vous devrez copier la clé qui commence par `eyj`qui vous avez mis dans un bloc note a coter de tunnel_token
 
 
 6.1 🌐 **Accéder à Nginx Proxy Manager**
