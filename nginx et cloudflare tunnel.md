@@ -18,8 +18,6 @@
 1.2 🎯 **Rechercher et acheter un domaine**  
 👉 Dans l’interface Porkbun, recherchez votre domaine (ex: `beluchon.top`)  
 
-⚠️ **IMPORTANT** : Désactivez la protection WHOIS gratuite (elle peut interférer avec Cloudflare) 🔒
-
 ---
 
 ☁️ **Étape 2 : Transférer le domaine vers Cloudflare ☁️**
@@ -100,6 +98,7 @@
 5.1 📥 **Ajouter un enregistrement DNS**  
 👉 Allez dans **DNS Records → Add Record**
 
+- **Type** : `CNAME`
 - **Name** : `*`  
 - **Target** : Copiez votre ID tunnel + `.cfargotunnel.com`  
   Ex: `e9c999bb-f3de-3294-881a-5444907c0972.cfargotunnel.com`  
