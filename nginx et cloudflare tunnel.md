@@ -129,7 +129,7 @@ aller sur dockge ou avec l'invite de commande et coller le texte dans se fichier
 🔍 **Configuration Details** :
 
 - **Domain Names** : `mediafusion.beluchon.top`  
-- **Scheme** : `http`  
+- **Scheme** : `http` des fois le http ne marchera pas et faudra mettre mttps
 - **Forward Hostname/IP** : `mediafusion` (ou nom du conteneur)  
 - **Forward Port** : `80` (port du conteneur)  
 
