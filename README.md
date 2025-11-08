@@ -37,3 +37,5 @@ sudo docker compose up -d
 
 sudo docker-compose up -d
 ```
+
+puis aller sur https://votre-ip:5001
