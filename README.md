@@ -22,7 +22,7 @@ puis dockge
 
 ```
 sudo mkdir -p /opt/stacks /opt/dockge
-sudo cd /opt/dockge
+cd /opt/dockge
 
 sudo curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
 
