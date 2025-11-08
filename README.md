@@ -2,7 +2,7 @@ pas de débrideur ? ➡️ Teste Torbox ici : https://www.torbox.app/subscriptio
 
 ```
 sudo apt-get update
-sudo apt-get update
+sudo apt-get upgrade -y
 ```
 
 docker et docker compose
