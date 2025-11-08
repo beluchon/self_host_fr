@@ -46,3 +46,5 @@ hostname -I
 et copier la première ip
 
 puis aller sur https://votre-ip:5001
+
+une fois l'interface de dockge ouvert regarder https://github.com/beluchon/self_host_fr/blob/main/2%20nginx%20et%20cloudflare.md
