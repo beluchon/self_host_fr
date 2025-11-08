@@ -1,12 +1,10 @@
 ---
-
 📌 **Prérequis**
 
 ✅ Un compte **Cloudflare** (gratuit)  
 ✅ Un compte **Porkbun**  
 ✅ Un serveur avec **Docker/Dockge** (ex: Ubuntu + Docker)  
 ✅ Une application à exposer (ex: **Nginx Proxy Manager**)
-
 ---
 
 🛒 **Étape 1 : Acheter un domaine sur Porkbun 🛒**
