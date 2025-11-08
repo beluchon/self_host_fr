@@ -27,8 +27,6 @@ sudo cd /opt/dockge
 sudo curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
 
 sudo docker compose up -d
-
-sudo docker-compose up -d
 ```
 faite 
 
