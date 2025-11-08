@@ -37,5 +37,10 @@ sudo docker compose up -d
 
 sudo docker-compose up -d
 ```
+faite 
+
+hostname -I
+
+et copier la première ip
 
 puis aller sur https://votre-ip:5001
