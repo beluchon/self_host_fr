@@ -39,7 +39,7 @@ sudo docker-compose up -d
 ```
 faite 
 
-hostname -I
+```hostname -I```
 
 et copier la première ip
 
